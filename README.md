@@ -79,14 +79,24 @@ Model was trained using TensorFlow and Keras with a binary classification approa
    - **"Human"**
    - Optionally both (if confidence split is detected — implementation-specific)
 
+
 ---
 
-## ⚙️ How to Run Locally
+## ✅ To Finish This Up
 
-> ✅ Optional — You said no instructions needed, but here for devs:
+To complete your README:
 
-```bash
-git clone https://github.com/your-username/horse-vs-human-classifier.git
-cd horse-vs-human-classifier
-pip install -r requirements.txt
-streamlit run app.py
+1. **Replace** the Streamlit app link:  
+   `👉 [🔗 Open Streamlit App](#)`  
+   → with your actual public link (e.g., `https://yourname.streamlit.app`)
+
+2. (Optional) Add `requirements.txt` if you're uploading to GitHub or deploying.
+
+Want me to generate a `requirements.txt` for your project too?
+
+
+
+
+#Author
+Aryan Gupta
+
