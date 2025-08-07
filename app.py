@@ -23,10 +23,19 @@ if uploaded_file is not None:
 
         # Predict
         prediction = model.predict(img_array)[0][0]
-        label = "Human" if prediction > 0.5 else "Horse"
 
-        # Show prediction
-        st.write(f"### Prediction: {label}")
+        # Calculate probabilities
+        prob_human = prediction
+        prob_horse = 1 - prediction
+
+        # Display probabilities
+        st.write("### Prediction probabilities:")
+        st.write(f"Human: {prob_human:.2%}")
+        st.write(f"Horse: {prob_horse:.2%}")
+
+        # Determine label
+        label = "Human" if prob_human > prob_horse else "Horse"
+        st.write(f"### Predicted Label: {label}")
 
     except Exception as e:
         st.error(f"Error processing the image: {e}")
