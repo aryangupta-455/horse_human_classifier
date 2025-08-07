@@ -16,7 +16,7 @@ It was built using TensorFlow/Keras and deployed using Streamlit for an easy-to-
   - Both (if applicable, based on confidence)
 - Simple Streamlit web interface for uploading and predicting
 - Trained on custom dataset of horse and human images
-
+- Model Demo: https://horsehumanclassifier-jfesubpmw5sbwux2wmgrqt.streamlit.app/
 ---
 
 ## 🛠️ Tech Stack
